@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('ContinuousDownload') 
     {
-        git 'git@github.com:saitejakurapati1997/Maven.git'
+        git 'https://github.com/saitejakurapati1997/Maven.git'
     }
     stage('ContinuousBuild') 
     {
